@@ -1,0 +1,1 @@
+If you are using NodeJS v14.13.0 or newer (which does support ESM) you can enable it by setting "type":"module" in your project package.json
