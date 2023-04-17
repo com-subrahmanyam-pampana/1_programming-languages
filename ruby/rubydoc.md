@@ -1,5 +1,4 @@
-To run 
+# To run 
 ruby filename.rb
-
-To open shell
+# To open shell
 irb

@@ -1,2 +1,2 @@
-///To run 
+# To run 
 scala fileName.scala

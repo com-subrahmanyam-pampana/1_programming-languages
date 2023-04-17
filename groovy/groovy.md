@@ -1,3 +1,3 @@
 # To run groovy file
 
-groovy test.grrovy
+groovy filename.groovy
