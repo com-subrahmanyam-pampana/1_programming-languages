@@ -1,5 +1,5 @@
 /*We can change the data type and the value of  let and var varibles.*/
-/*We can not modify the varibles declayred with const */
+/*We can not modify the varibles declarayed with const */
 
 //We can reassign the values in java script
 var myKey1=true;

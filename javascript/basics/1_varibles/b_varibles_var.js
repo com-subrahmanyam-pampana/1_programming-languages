@@ -2,9 +2,11 @@ var globalVarible = 2;
 var x = 10;
 var _value = "subbu";
 var myBool = true;
-/*Invalid way */
+ 
+/*Invalid way 
 //var  123=30;  
-//var aa=320; 
+*/
+
 function function1() {
     //Java script is functional programming and it  does not have the concept of class
     //(of cource Java Script class are technically functions)
