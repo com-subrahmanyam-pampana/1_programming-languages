@@ -32,6 +32,7 @@ console.log(map1)
 map1.set(1,"One")
 map1.set(2,"Two")
 console.log(map1)
+console.log(map1.get(1));
 
 
 console.log("<<<<<<<Set>>>>>>")

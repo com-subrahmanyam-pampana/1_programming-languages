@@ -9,7 +9,7 @@ console.log(typeof "null") //String
 console.log("<<<<<<<<Numeric>>>>>>>>>>>")
 //Numeric
 let op1=("6" / "2");
-console.log(typeof  op1); //strings are converted to numbers automatically
+console.log(typeof  op1); //string .strings are converted to numbers automatically
 let str = "123";
 console.log(typeof str); // string
 let num = Number(str); // becomes a number 123

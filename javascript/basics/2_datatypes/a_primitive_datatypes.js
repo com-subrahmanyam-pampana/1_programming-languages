@@ -12,11 +12,10 @@ Symbol
 console.log("<<<<<<<Numbers>>>>>>>>");
 let x=2;
 let y=2.3;
-let y2 = 124e5;      // 12300000
-let z2 = 123e-5;     // 0.00123
+let y2 = 123e5;      // =123*10^5=123*100000=12300000
+let z2 = 123e-5;     // =123/10^5=0.00123
 
-console.log("<<<<<<<Not a number>>>>>>>>");
-console.log("hello"/1);
+
 
 console.log("<<<<<<<Infinity>>>>>>>>");
 let t1=Infinity;
@@ -25,6 +24,9 @@ console.log(-1/0)//Negative infinity
 console.log(Infinity)
 console.log(-Infinity)
 console.log(Number.NEGATIVE_INFINITY)
+
+console.log("<<<<<<<Not a number>>>>>>>>");
+console.log("hello"/1);//NaN
 
 console.log("<<<<<<<Undefined>>>>>>>>");
 let a;//We declared the varible but we did't defined
