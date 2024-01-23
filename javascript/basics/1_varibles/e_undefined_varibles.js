@@ -10,3 +10,14 @@ let y;
 console.log(x);
 console.log(y);
 // console.log(z)
+
+/*
+In JS, an undeclared variable is assigned the value 
+undefined at execution and is also of type undefined.
+*/
+console.log(typeof variable); // Output: undefined
+
+/*
+access a previously undeclared variable thrown an ReferenceError 
+*/
+console.log(variable2); // Output: ReferenceError: variable is not defined
