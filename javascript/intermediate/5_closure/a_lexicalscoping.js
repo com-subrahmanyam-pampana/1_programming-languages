@@ -10,5 +10,4 @@ function outer(){
 }
 
 outer();
-console.log(myname) //this will give not defined error 
-
+console.log(myname) 

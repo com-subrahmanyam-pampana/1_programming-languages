@@ -8,10 +8,14 @@ if(Math.random()>0.5){
 
 console.log(x)
 /*
-For people from other languages (e.g. C, Java) where blocks create scopes, the above code should throw an 
+For people from other languages (e.g. C, Java) where blocks 
+create scopes, the above code should 
+throw an 
 error on the console.log line, 
-because we are outside the scope of x in either block. However, because 
-blocks don't create scopes for var, the var statements here actually create a
+because we are outside the scope of x 
+in either block. However, because 
+blocks don't create scopes for var, 
+the var statements here actually create a
  global variable. 
 */
 
