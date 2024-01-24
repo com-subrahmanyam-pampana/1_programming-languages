@@ -1,6 +1,6 @@
 
 
-//=> functions have no “this”
+//arrow => functions have no “this”
 //If this is used, that instance refernce to  outside object
 
 let user = {

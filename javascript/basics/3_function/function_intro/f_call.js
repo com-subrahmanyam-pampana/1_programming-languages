@@ -13,6 +13,6 @@ var obj={
     }
 }
 obj.greet();
-/*Call method overides the name with the passed arguments */
+/*Call method overides the "name" with the passed arguments */
 obj.greet.call({name:"Gabbu"});
 

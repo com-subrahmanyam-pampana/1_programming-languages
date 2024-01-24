@@ -14,4 +14,4 @@ function onSuccess() {
 function showFail() {
     console.log("Connection failed");
 }
-connectToServer("192.x.x.x", onSuccess, showFail);
+connectToServer("192.0.8.7", onSuccess, showFail);

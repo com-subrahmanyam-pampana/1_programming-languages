@@ -42,10 +42,6 @@ function functionExpressionFly(myfunc){
     myfunc();
 }
 
-
-
-
-
 test1()
 test2()
 test3()

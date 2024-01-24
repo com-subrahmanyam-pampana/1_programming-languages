@@ -18,7 +18,7 @@ let sumOfTwoNumbers = function(a, b) {
 // expression on the right side
 let sumOfTwoNumbers = (a, b) => a + b;
 
-// or multi-line syntax with { ... }, need return here:
+// or multi-line syntax with { ... }, need "return" here:
 let sumOfTwoNumbers = (a, b) => {
   // ...
   return a + b;

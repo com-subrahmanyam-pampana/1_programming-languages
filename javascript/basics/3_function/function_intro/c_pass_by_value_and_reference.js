@@ -20,4 +20,4 @@ myObject.prop2="Mango";
 console.log("Initial Object value is "+myObject.prop1);
 changeObj(myObject)
 console.log("Initial Object value is "+myObject.prop1);
-/*Remember Object is paased by reference unlike primitive data types */
+/*Remember Object is passed by reference unlike primitive data types */
