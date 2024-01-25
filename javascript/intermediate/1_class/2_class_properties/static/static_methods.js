@@ -1,3 +1,5 @@
+//We no need to create instances of class.
+//We can directly call
 class Human{
 
 }
@@ -7,7 +9,9 @@ Human.getHeartBeat=function getHeartBeat(){
 }
 console.log(Human.sex);
 console.log(Human.getHeartBeat());
-//We no need to create instances of class.We can directly call
+
+/*In a class declaration, they are prepended by static keyword 
+and that makes them static */
 class Human2{
     static sex="Female";
     static  getHeartBeat(){

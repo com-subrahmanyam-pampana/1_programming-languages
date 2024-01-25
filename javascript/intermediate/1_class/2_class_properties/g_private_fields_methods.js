@@ -1,5 +1,9 @@
-
-
+/*
+Privates should start with #. 
+They are only accessible from inside the class.
+Protected properties are usually prefixed 
+with an underscore “_”
+*/
 class Employee{
     _salary=1;
     #bonus=44;
