@@ -1,3 +1,10 @@
+
+/*
+If we are overriding the parent constructor
+1.Constructors in inheriting classes(child class)
+ must call super(...), 
+2.And call the super(...)  before using "this".
+*/
 class Human{
     constructor(name){
         this.name=name;
