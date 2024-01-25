@@ -1,3 +1,9 @@
+/*
+Just like functions, classes can be defined inside another 
+expression, passed around, returned, assigned, 
+etc.
+*/
+
 //We can assign class to a varible
 let Animal=class{
     eats(){

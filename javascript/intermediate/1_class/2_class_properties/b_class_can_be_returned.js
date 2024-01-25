@@ -1,6 +1,4 @@
 
-
-
 function getClass(){
     return class{
         eats(){
