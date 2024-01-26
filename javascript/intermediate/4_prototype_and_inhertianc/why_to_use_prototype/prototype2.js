@@ -6,7 +6,8 @@ function Person(firstName,lastName,age){
    this.age=age;
 }
 
-//Sex and Country is not preset in Persion.Only firstName and lastName present.
+//Sex and Country is not preset in Persion.
+//Only firstName and lastName present.
 //Now try to add sex and Country.Add Country to Person as a constractor
 //Add sex to object created
 
