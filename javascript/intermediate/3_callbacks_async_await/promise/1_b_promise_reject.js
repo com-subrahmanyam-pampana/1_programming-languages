@@ -13,4 +13,13 @@ fail=function(){
 promise.then(success).catch(fail);
 
 
+////Another example
+//Try to use Error object for rejections
+
+
+new Promise(function(resolve, reject) {
+  // after 1 second signal that the job is finished with an error
+  setTimeout(() => reject(new Error("Whoops!")), 1000);
+});
+
 

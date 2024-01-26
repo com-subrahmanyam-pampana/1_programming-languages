@@ -1,0 +1,18 @@
+<!-- Callback example -->
+<html>
+<body>
+    <script>
+        function loadScript(src, callback) {
+            let script = document.createElement('script');
+            script.src = src;
+            script.onload = () => callback(script);
+            script.onerror = () => callback(new Error(`Script load error for ${src}`));
+            document.head.append(script);
+        }
+        loadScript('./script1.js', function () {
+            // the callback runs after the script is loaded
+            console.log("Script loaded....")
+        });
+    </script>
+</body>
+</html>
