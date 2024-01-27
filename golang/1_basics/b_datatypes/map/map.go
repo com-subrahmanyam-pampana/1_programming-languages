@@ -147,7 +147,7 @@ func method6() {
 
 }
 
-////////More examples
+// //////More examples
 func map3() {
 	var map_1 map[int]int
 	var map_2 map[int]string
@@ -196,6 +196,15 @@ func method7() {
 	fmt.Println(employeeSalary3)
 }
 
+func iterateOverMap() {
+	// create a map
+	squaredNumber := map[int]int{2: 4, 3: 9, 4: 16, 5: 25}
+
+	// for-range loop to iterate through each key-value of map
+	for number, squared := range squaredNumber {
+		fmt.Printf("Square of %d is %d\n", number, squared)
+	}
+}
 func main() {
 	method1()
 	method2()
@@ -203,4 +212,5 @@ func main() {
 	method4()
 	method5()
 	method6()
+	iterateOverMap()
 }

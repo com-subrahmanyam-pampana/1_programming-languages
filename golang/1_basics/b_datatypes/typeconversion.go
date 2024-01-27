@@ -4,16 +4,19 @@ import (
 	"fmt"
 )
 
-func method1() {
-	fmt.Println("<<<<<<<Method 1 >>>>>>>>>")
+func floatToIntConversion() {
+	/*
+		int + float64 not allowed.
+		So convery var "j" to int
+	*/
 	i := 55
 	j := 67.5
-	//sum1 := i + j //int + float64 not allowed
-	sum1 := i + int(j)
-	fmt.Println(sum1)
+	//sum := i + j //not allowed
+	sum := i + int(j)
+	fmt.Println(sum)
 }
 
-func method2() {
+func intToFloatConversion() {
 	fmt.Println("<<<<<<<Method 2 >>>>>>>>>")
 	i := 55
 	j := 67.5
@@ -32,11 +35,11 @@ func method3() {
 	// ASCII to character
 
 	asciiNum := 65 // Uppercase A
-	character := string(asciiNum)
+	character := string(rune(asciiNum))
 	fmt.Println(asciiNum, " : ", character)
 
 }
-func main() {
-	method1()
-	method2()
+func typeConversion() {
+	floatToIntConversion()
+	intToFloatConversion()
 }

@@ -44,7 +44,7 @@ func typeSwitch(myvalue interface{}) {
 		fmt.Print("dynamic")
 	}
 }
-func main() {
+func switchInGo() {
 	expressionSwitch(8)
 	typeSwitch("subbu")
 }

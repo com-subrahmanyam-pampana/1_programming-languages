@@ -112,7 +112,7 @@ func method7() {
 	}
 }
 
-func main() {
+func forloop() {
 	method1()
 	method2()
 	method3()

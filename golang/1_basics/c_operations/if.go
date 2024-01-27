@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ifInGo() {
 	if 2 > 3 && 1 > 0 {
 		fmt.Println("Hello World")
 	} else {

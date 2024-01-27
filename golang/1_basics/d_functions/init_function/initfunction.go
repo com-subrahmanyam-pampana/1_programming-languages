@@ -4,7 +4,9 @@ package main
 /*
 
 init() function is just like the main function, does not take any
-argument nor return anything. This function is present in every package
+argument nor return anything.
+
+This function is present in every package
 and this function is called when the package is initialized.
 This function is declared implicitly, so you cannot reference it
 from anywhere and you are allowed to create multiple init() function in

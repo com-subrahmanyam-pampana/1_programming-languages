@@ -114,7 +114,7 @@ func test4() {
 	}
 }
 
-/////Other operations
+// ///Other operations
 func test5() {
 	sum := addElementsInAnArray([]int{1, 2, 3, 4, 5})
 	fmt.Println(sum)
@@ -164,4 +164,5 @@ func main() {
 	test3()
 	test4()
 	test5()
+	array2D()
 }

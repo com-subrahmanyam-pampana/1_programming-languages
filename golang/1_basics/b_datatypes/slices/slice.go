@@ -24,7 +24,7 @@ func slice1() {
 	/*Createing using literal*/
 	var myslice []int
 	myslice = []int{1, 2, 3, 4, 5}
-	myslice = []int{1, 2, 3, 4, 5, 6}
+	myslice = []int{1, 2, 3, 4, 5, 6} //we can add new element in slice
 	fmt.Println(myslice)
 	/*Using shorthand*/
 	myslice2 := []int{1, 2, 3}
@@ -33,10 +33,14 @@ func slice1() {
 	var myslice3 = make([]int, 3)
 	myslice3 = []int{1, 2, 3, 4, 5}
 	fmt.Println(myslice3)
+	/*
+		The make built-in function allocates and initializes an
+		object of type slice, map, or chan (only).
+	*/
 
 }
 func sliceFromAnArray() {
-	var a = [7]int{1, 2, 3, 4, 5, 6, 7}
+	var a = [7]int{1, 2, 3, 4, 5, 6, 7} //array
 	var slice1 []int = a[:]
 	fmt.Println(slice1)
 	var slice2 []int = a[0:3]
@@ -56,6 +60,7 @@ func sortSlice() {
 	fmt.Println(myslice2)
 }
 func searchSlice() {
+	/*sort.SearchInts() returns the index*/
 	myslice := []int{5, 4, 3, 2, 1}
 	fmt.Println(sort.SearchInts(myslice, 3))
 }
@@ -66,19 +71,19 @@ func reverseSlice() {
 }
 
 func iterateSlices() {
-	d := []int{12, 78, 50}
-	e := []string{"US", "UK", "India", "USSR"}
+	slice1 := []int{12, 78, 50}
+	slice2 := []string{"US", "UK", "India", "USSR"}
 
-	for i := 0; i < len(d); i++ {
-		fmt.Printf(" index = %d and value is %d \n", i, d[i])
+	for i := 0; i < len(slice1); i++ {
+		fmt.Printf(" index = %d and value is %d \n", i, slice1[i])
 	}
 	fmt.Println("......Using Range.....")
 	/*Using Range*/
-	for index, value := range e {
+	for index, value := range slice2 {
 		fmt.Printf(" index = %d and value is %s \n", index, value)
 	}
 	/*Using Range*/
-	for index, value := range e {
+	for index, value := range slice2 {
 		fmt.Printf(" index = %d and value is %s \n", index, value)
 	}
 }
