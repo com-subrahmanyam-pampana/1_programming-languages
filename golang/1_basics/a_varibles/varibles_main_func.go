@@ -7,4 +7,5 @@ func main() {
 	shortVariableDeclaration()
 	globalAndLocalVarible()
 	initializedVariablesDataType()
+	constantsDeclarations()
 }

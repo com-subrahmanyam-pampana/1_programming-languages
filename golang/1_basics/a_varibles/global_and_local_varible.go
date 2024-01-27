@@ -5,7 +5,7 @@ import "fmt"
 var myGlobalVar1 int
 
 func globalAndLocalVarible() {
-	fmt.Println("<<<<<< Method 5 >>>>>>>>>>.")
+
 	////Global varibles
 	fmt.Println(myGlobalVar1)
 
