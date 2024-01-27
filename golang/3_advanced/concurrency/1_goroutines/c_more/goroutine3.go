@@ -17,7 +17,7 @@ func alphabets() {
 		fmt.Printf("%c ", i)
 	}
 }
-func main() {
+func main34() {
 	go numbers()
 	go alphabets()
 	time.Sleep(3000 * time.Millisecond)

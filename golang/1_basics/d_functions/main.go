@@ -5,4 +5,6 @@ func main() {
 	functionArgumentsTesting()
 	useOfUnderScore()
 	veradicFunctionTest()
+	iifFunction()
+	userDefinedFunctionType()
 }

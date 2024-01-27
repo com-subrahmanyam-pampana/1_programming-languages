@@ -13,7 +13,7 @@ import (
   }
 */
 
-//Here’s a basic interface for geometric shapes.
+// Here’s a basic interface for geometric shapes.
 type Geometry interface {
 	area() float64
 	perim() float64
@@ -48,7 +48,7 @@ func measure(g Geometry) {
 	fmt.Println(g.perim())
 }
 
-func main() {
+func interfaceTestingWithGemotry() {
 	r := Rectangle{width: 3, height: 4}
 	c := Circle{radius: 5}
 	measure(r)

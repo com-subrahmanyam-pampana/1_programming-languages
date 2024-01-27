@@ -1,68 +1,47 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-//Method vs Function:
-/*Syntax:
-  func(reciver_name Type) method_name(parameter_list)(return_type){
-     // Code
-   }
+/*
+1.Go supports methods defined on struct types(or non struct types).
+2.The method contains a receiver argument in it.With the help of the
+receiver argument,the method can access the properties of the receiver.
+
+	func(reciver_name Type) method_name(parameter_list)(return_type){
+	   // Code
+	}
+	Here, the receiver can be accessed within the method.
 */
-//Method  contains a receiver  and function  does not contain a receiver.
 
-type Rectangle struct {
-	length  int
-	breadth int
-}
+/*
+Method with struct type receiver
+*/
 
-/*Function section starts */
-func test1() {
-	fmt.Println("<<<<<<<<<< Aread and Permeter : from Functions >>>>>>>>>>>>")
-	/*We can calculate area and Permeter from functions*/
-	rect := Rectangle{12, 13}
-	area := area(rect)
-	fmt.Print(area)
-}
-func area(r Rectangle) int {
-	return r.breadth * r.length
-}
-func permeter(r Rectangle) int {
-	return 2 * (r.length + r.breadth)
+// Author structure
+type bookauthor struct {
+	name   string
+	branch string
+	salary int
 }
 
-/*Method section*/
-func test2() {
-	fmt.Println("<<<<<<<<<< Aread and Permeter : from methods >>>>>>>>>>>>")
-	/*We can calculate area and Permeter from functions*/
-	rect := Rectangle{12, 13}
-	area := rect.area()
-	fmt.Print(area)
-	permeter := rect.permeter()
-	fmt.Print(permeter)
-}
-func (r Rectangle) area() int {
-	return r.breadth * r.length
-}
-func (r Rectangle) permeter() int {
-	return 2 * (r.length + r.breadth)
+// Method with a receiver
+// of bookauthor type
+func (a bookauthor) show() {
+
+	fmt.Println("Author's Name: ", a.name)
+	fmt.Println("Branch Name: ", a.branch)
+	fmt.Println("Salary: ", a.salary)
 }
 
-/*Method section ends */
-
-func main() {
-	test1()
-	test2()
-	/*Method 1 uses function and method 2 uses methods*/
-	/*Both gives the same result*/
-	/*
-		 Go is not a pure object-oriented programming language and
-		 it does not support classes. Hence methods on types are a way to
-		 achieve behaviour similar to classes.
-		Methods allow a logical grouping of behaviour
-		related to a type similar to classes.
-	*/
-	/*We can group all Rectangle related methods like getArea,getPermiter,getColor etc
-	 */
+// Main function
+func methodWithStructTypeReceiver() {
+	// Initializing the values
+	// of the author structure
+	res := bookauthor{
+		name:   "Sona",
+		branch: "CSE",
+		salary: 34000,
+	}
+	// Calling the method
+	res.show()
 }
