@@ -1,11 +1,15 @@
 
-let a={
-    "1":1,
-    "2":2,
-    "3":{
-        "3.1":3.1
-    }
+/*
+The delete operator removes a property from an object.
+delete object.property
+(or)
+delete object[property]
+*/
+let user={
+    "name":"Subbu",
+    "country":"USA",
+    "phone":"1234567"
 }
-//console.log(a)
-delete a["1"]
-console.log(a)
+
+delete user["phone"]
+console.log(user)
