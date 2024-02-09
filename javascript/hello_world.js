@@ -1,7 +1,7 @@
 /*
-1.“console” is an object.
-  In node packages,you can see the declaration
+1."console" is an object.
+The declaration can be seen in node packages.
      declare var console: Console
-2.“log” method writes/logs a message to your debugging console.
+2.The 'log' method writes a message to your debugging console.
 */
 console.log("Hello World");
