@@ -1,15 +1,55 @@
-
 /*
-The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created.
+1.The spread (...) syntax allows an iterable(anything you can iterate 
+over item by item) such as array ,string objects literals
+to be expanded in places where zero or more arguments (for function calls) 
+or elements (for array literals) are expected. 
+2.the three dots "..." are the spread operator syntax.
 */
 
+/*Array*/
+
+const myArray = [1, 2, 3];
+const myArray2 = [...myArray]; // the three dots "..." are the spread operator syntax.
+console.log(myArray2); //[1,2,3]
 /*
-Spread syntax looks exactly like rest syntax. In a way, spread syntax is the opposite of rest syntax. Spread syntax "expands" an array into its elements, while rest syntax collects multiple elements and "condenses" them into a single element.
+The spread operator essentially ‘scooped’ out the insides of 
+the myArray array and spread the values across the new array in myArray2.
 */
+
+/*Duplicating Iterable Objects */
+const foo = {
+  english: "hello",
+  french: "bonjour",
+  japanese: "konnichiwa",
+};
+const bar = { ...foo };
+console.log(bar);
+
+/**
+ Function and spread operator Syntax:
+ myFunction(a, ...iterableObj, b)
+ */
 
 /**
  myFunction(a, ...iterableObj, b)
 [1, ...iterableObj, '4', 'five', 6]
 { ...obj, key: 'value' }
  */
+
+function sum(x, y, z) {
+  return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+//Feeding Arguments into Functions
+console.log(sum(...numbers));
+// Expected output: 6
+
+/*Using the Spread Operator With Strings*/
+
+const userName = "subbu";
+const userNameCopy = [...userName];
+/*This will break the string subbu up into its individual characters.*/
+console.log(userNameCopy);
+["s", "u", "b", "b", "u"];
 
