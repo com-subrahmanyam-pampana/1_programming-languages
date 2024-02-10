@@ -38,3 +38,14 @@ let x2=false;
 let y2=true;
 let z2=(x2||y2||"None")
 console.log(z2)//true
+
+//Nullish coalescing assignment (??=)
+const a = { duration: 50 };
+
+a.duration ??= 10;
+console.log(a.duration);
+// Expected output: 50
+
+a.speed ??= 25;
+console.log(a.speed);
+// Expected output: 25

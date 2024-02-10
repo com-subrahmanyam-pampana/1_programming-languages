@@ -11,5 +11,5 @@ let user={
     "phone":"1234567"
 }
 
-delete user["phone"]
+delete user["phone"] // true
 console.log(user)

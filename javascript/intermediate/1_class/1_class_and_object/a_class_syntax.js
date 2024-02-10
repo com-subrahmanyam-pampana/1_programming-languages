@@ -15,3 +15,4 @@ so we can initialize the object there. */
  myclass.method1()
  myclass.method2()
  myclass.method3()
+

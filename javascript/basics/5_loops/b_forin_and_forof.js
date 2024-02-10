@@ -57,3 +57,4 @@ for(const item in myobj){
 for(const item in myobj){
     console.log(myobj[item])
 }
+
