@@ -1,11 +1,8 @@
-
-
-// console.log(this === window) //true for web ,false for the Node JS
-console.log(this===global) // prints empty
-
-
 /*
-this in NodeJS global scope is the current module.exports object, not the global object. This is different from a browser where the global scope is the global window object.
+1.this in NodeJS global scope is the current module.exports object, 
+not the "global object". 
+2.This is different from a browser where the global scope is the
+ global window object.
 */
 
 console.log(this);    // logs {}
