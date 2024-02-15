@@ -1,17 +1,20 @@
-function connectToServer(ip, funcYes, funcNo) {
-    ///Call network 
-    let connected = false;
-    if (connected) {
-        funcYes();
-    } else {
-        funcNo();
-    }
-}
-function onSuccess() {
-    console.log("Connected...");
+function sum(a, b) {
+  console.log(a + b);
 }
 
-function showFail() {
-    console.log("Connection failed");
+function mul(a, b) {
+  console.log(a * b);
 }
-connectToServer("192.0.8.7", onSuccess, showFail);
+
+function sub(a, b) {
+  console.log(a - b);
+}
+
+function div(a, b) {
+  console.log(a / b);
+}
+
+function doArithmeticOperation(operationFunction) {
+  operationFunction(10, 10);
+}
+doArithmeticOperation(mul);
