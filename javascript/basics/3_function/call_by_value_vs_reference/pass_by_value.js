@@ -1,5 +1,4 @@
 /*Pass by value */
-
 function change(b){
     /*b is a copy of a */
     b=2;

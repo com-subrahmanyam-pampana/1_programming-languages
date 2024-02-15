@@ -1,4 +1,12 @@
 
+let myArray1=[1,2,3]
+function changeArray(a){
+ a[0]="apple"
+}
+changeArray(myArray1)
+console.log(myArray1)
+
+
 //Pass by reference
 function changeObj(d){
     d.prop1=14;
