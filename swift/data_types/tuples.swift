@@ -1,6 +1,4 @@
 
-//Booleansin 
-let orangesAreOrange = true
 
 /*
 Tuples group multiple values into a single compound value. 
