@@ -1,8 +1,5 @@
-package a_basics.arrays;
-
 public class A_Arrays {
-	
-	
+
 	public static void method1() {
 		int[] myArray1;
 		myArray1=new int[2]; //we must specify the size
