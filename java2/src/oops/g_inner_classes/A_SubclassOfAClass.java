@@ -1,4 +1,6 @@
-package b_oops.innerclasses;
+package oops.g_inner_classes;
+
+
 
 class Polygon {
 	public void display() {
@@ -9,6 +11,9 @@ class Polygon {
 class AnonymousDemo {
 	public void createClass() {
 		// creation of anonymous class extending class Polygon
+
+		//Polygon is a parent class and anonymous class that
+		//we are creating is a child class
 		Polygon p1 = new Polygon() {
 			public void display() {
 				System.out.println("Inside an anonymous class.");
@@ -18,7 +23,7 @@ class AnonymousDemo {
 	}
 }
 
-public class MyAnonymousClass {
+public class A_SubclassOfAClass {
 
 	public static void main(String[] args) {
 
