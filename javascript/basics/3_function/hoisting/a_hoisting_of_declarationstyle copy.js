@@ -7,7 +7,9 @@
 myfunc1(); // Works
 
 // Yet, it is defined down there.
-function myfunc1(){}
+function myfunc1(){
+    console.log("Function called successfully....")
+}
 
 // We can call it again
 myfunc1(); // Works

@@ -1,10 +1,13 @@
 /*Immediately invoked functions*/
-/*Inside(),define a function without name */
-(function(){
+/*Inside this brackets (),define a function 
+with or without the  name */
+
+
+(function myfunc(){
 console.log("Subbu")
 }());
 
 
-(function(){
+(function myfunc(){
     console.log("Subbu 2")
     })();

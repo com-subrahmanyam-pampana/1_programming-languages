@@ -1,6 +1,9 @@
 
 /*
-In arrow functions, this retains the value of the enclosing lexical context's this. In other words, when evaluating an arrow function's body, the language does not create a new this binding.
+In arrow functions, this retains the value of the enclosing 
+lexical context's this. 
+In other words, when evaluating an arrow function's body, 
+the language does not create a new this binding.
 */
 
 const globalObject = this;

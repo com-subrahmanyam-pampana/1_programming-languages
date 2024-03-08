@@ -1,6 +1,7 @@
 
 /*
-1.for..of and for..in statements iterate over lists(Like arrays ,sets,object keys(but not values)).
+1.for..of and for..in statements iterate over lists
+(Like arrays ,sets,object keys(but not values)).
 2.for..in returns a list of keys on the object being iterated.
 3. for..of returns a list of values of of the object being iterated.
 */
@@ -11,6 +12,7 @@ for (let i in list1) {
     //prinst index
    console.log(i); // 0, 1, 2, 3
 }
+
 
 for (let i of list1) {
    console.log(i); 

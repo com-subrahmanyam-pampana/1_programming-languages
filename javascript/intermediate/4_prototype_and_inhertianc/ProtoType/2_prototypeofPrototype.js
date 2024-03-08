@@ -1,5 +1,8 @@
 /*
-The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.
+The prototype is itself an object, so the prototype will 
+have its own prototype, making what's called a prototype chain. 
+The chain ends when we reach a prototype that has null for 
+its own prototype.
 */
 
 const a = {

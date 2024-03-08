@@ -1,5 +1,9 @@
 /*
-each object's prototype is linked to function's prototype object. If you change function's prototype then only new objects will be linked to changed prototype. All other existing objects will still link to old prototype of function. The following example demonstrates this scenario.
+each object's prototype is linked to function's prototype object. 
+If you change function's prototype then only new objects will 
+be linked to changed prototype. 
+All other existing objects will still link to old prototype of 
+function. The following example demonstrates this scenario.
 */
 
 function Student() {

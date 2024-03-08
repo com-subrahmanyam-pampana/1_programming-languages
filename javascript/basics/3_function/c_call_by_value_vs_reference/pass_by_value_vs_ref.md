@@ -1,3 +1,5 @@
+
+In function paramaters,
 # Primitives
 1.Primitive type variables like strings and numbers are always passed by value.
 

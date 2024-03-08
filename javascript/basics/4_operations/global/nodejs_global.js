@@ -1,8 +1,8 @@
-
-
-
 /*
-The global object exposes a variety of useful properties about the environment. Also this is the place where functions as setImmediate and clearTimeout are located.
+The global object exposes a variety of useful
+ properties about the environment. 
+Also this is the place where functions as 
+setImmediate and clearTimeout are located.
 */
 
 global.console.log(" console log Test")

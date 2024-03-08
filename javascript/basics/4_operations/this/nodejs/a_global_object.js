@@ -6,7 +6,7 @@ not the "global object".
 */
 
 console.log(this);    // logs {}
-
+//Initially module is empty.Now we are adding the some varibles
 module.exports.foo = 5;
 
 console.log(this);   // log { foo:5 }

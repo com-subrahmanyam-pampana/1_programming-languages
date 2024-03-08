@@ -9,7 +9,8 @@ or elements (for array literals) are expected.
 /*Array*/
 
 const myArray = [1, 2, 3];
-const myArray2 = [...myArray]; // the three dots "..." are the spread operator syntax.
+const myArray2 = [...myArray]; 
+// the three dots "..." are the spread operator syntax.
 console.log(myArray2); //[1,2,3]
 /*
 The spread operator essentially ‘scooped’ out the insides of 

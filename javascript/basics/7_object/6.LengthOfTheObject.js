@@ -2,8 +2,9 @@
 
 let x={"myname":"Trump"};
 /*Method 1 */
-var size = Object.keys(x).length;
-console.log(size)
+//This garunties keys order
+const keys=Object.keys(x);
+console.log(keys.length)
 
 /*Method 2 */
 //Get  array of the object properties and use length of array

@@ -34,7 +34,7 @@ There are different ways to create new objects:
  console.log("<<<<<<<<<<Using create methods from object>>>>>>>>>");
  console.log(myObj5)///This will be empty 
  console.log(myObj5.name);
-
+                                 
 /*******JavaScript Object Constructors */
 console.log("<<<<<<<<<<Using Object Constractor>>>>>>>>>");
 function Person(first, last, age, eye) {

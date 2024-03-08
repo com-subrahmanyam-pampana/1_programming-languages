@@ -1,6 +1,7 @@
-i=5
 
+
+let i=5
 do{
   i--;
-  console.log("Hi")
-}while(i>0);
+  console.log(i)
+}while(i>0)

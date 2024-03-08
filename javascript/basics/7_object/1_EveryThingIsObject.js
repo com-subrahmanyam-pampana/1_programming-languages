@@ -5,8 +5,8 @@ let a1=11;
 let a2=new Number(11);
 /*a1 is not an object.It is an primitive */
 /*but a2 is an object.a1 is a primitive */
-console.log(typeof a1)
-console.log(typeof a2)
+console.log(typeof a1) //number
+console.log(typeof a2) //object
 
 console.log("<<<<<Other>>>>>>")
 let b2=new String("Hello");
@@ -19,7 +19,7 @@ console.log(typeof b4);
 console.log("<<<<<Array>>>>>>")
 var myarray1=[1,2,3,4,5];
 /*d is an object */
-console.log(typeof myarray1)
+console.log(typeof myarray1) //object
 
 
 console.log("<<<<  Function >>>>>>")

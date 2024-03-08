@@ -2,14 +2,14 @@
 function outerFunction(){
     let myName="Subbu";
     function displayName(){
-        return myName;
+        console.log(myName);
     }
     return displayName;
 }
 
 const myFunc=outerFunction();
-let myName=myFunc();
-console.log(myName)
+myFunc();
+
 
 //In other programing lang ,this won't work
 //Because when compailer retured from the

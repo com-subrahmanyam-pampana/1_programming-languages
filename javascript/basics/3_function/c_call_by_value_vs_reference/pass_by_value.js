@@ -5,5 +5,5 @@ function change(b){
 }
 var a=1;
 change(a);
-console.log(a);
+console.log(a); //prints 1
 /*Remember primitive (int,string,bool) are  paased by values  */

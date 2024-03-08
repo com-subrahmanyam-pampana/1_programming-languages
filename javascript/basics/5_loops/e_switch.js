@@ -12,7 +12,7 @@ switch (x) {
     console.log(" X value is = 3");
     break;
   default:
-    alert( " X value is null" );
+    console.log( " X value is null" );
 }
 
 

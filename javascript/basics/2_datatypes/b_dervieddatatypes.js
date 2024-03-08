@@ -1,15 +1,17 @@
 
 /*
-Array	
-Object	
-RegExp
-Maps
-Sets	
+Array:List of elements(Both homogenous and hetrogenious)	
+Object:Key value pair.Order not maintained.Keys are converted to strings
+Maps:Key value pair.Order  maintained.Keys original datatype  is not changed
+Sets:Removes duplicates
+RegExp	
 */
 
 console.log("<<<<<<<Array>>>>>>");
-const a=[1,2,3,4];
-console.log(a);
+const a1=[1,2,3,4];
+console.log(a1);
+const a2=[1,"Subbu","M"];
+console.log(a2);
 //Another way of defining an array
 const b=new Array(1,2,3,4);//using new keyword
 console.log(b);
@@ -19,8 +21,9 @@ console.log("<<<<<<<Object>>>>>>")
 const ob1={
     "firstName":"subbu",
     "lastName":"pampa",
-    "rNumber":1
+    rollNumber:1
 }
+/*rollNumber is converted to string */
 console.log(ob1)
 const ob2=new Object(); //using new keyword
 console.log(ob2)
