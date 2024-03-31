@@ -1,0 +1,2 @@
+ let myVarToTestBlockScope=2;
+ 
