@@ -1,4 +1,4 @@
-function testTheVariblesMutability() {
+function testTheVariblesMutability2() {
     let x1 = 1;
     var y1 = 2;
     //x1="Subbu"
